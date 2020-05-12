@@ -1,0 +1,48 @@
+/**
+ * IDSA Long Project 5
+ * Group members:
+ * Adarsh Raghupati   axh190002
+ * Akash Akki         apa190001
+ * Keerti Keerti      kxk190012
+ * Stewart cannon     sjc160330
+ */
+
+####Implementation of FIFO preflow-push algorithm to find maximum flow in the graph
+
+###### Steps to run the code in IntelliJ IDE
+* Create an empty java project
+* Unzip the source code files and paste it under the location "Java Project Name"/src folder
+
+
+###### Steps to run the tests
+
+Run maxFlowDriver.java file
+Copy the content of test file and paste it in the console input
+
+###### Sample test runs:
+Input:
+6 8
+1 2 1
+1 3 1
+2 4 1
+3 5 1
+4 3 1
+4 6 1
+5 2 1
+5 6 1
+1 6
+
+1 15
+2 4
+3 12
+4 10
+5 3
+6 7
+7 5
+8 10
+end
+
+Output:
+14
+Time: 3693 msec.
+Memory: 4 MB / 121 MB.
